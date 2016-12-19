@@ -1,0 +1,78 @@
+/* NAVIGATION */
+#top-bar-menu {
+  background-color: RGB(5,5,5); /* ? #151515 */
+}
+
+#top-bar-menu li {
+  background-color: RGB(5,5,5);
+}
+
+#top-bar-menu a {
+  background-color: RGB(5,5,5);
+  color: #fdfae7;
+  font-family: "Anonymous Pro", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+/* mobile dropdown */
+.title-bar {
+  font-family: "Anonymous Pro", sans-serif;
+}
+
+#mobile-drop-down {
+background-color: #151515;
+font-family: "Anonymous Pro", sans-serif;
+color: white;
+}
+
+#mobile-drop-down a {
+  font-family: "Anonymous Pro", sans-serif;
+  color: white;
+  border-bottom: solid 3px RGB(9,9,9);
+}
+/* END NAVIGATION */
+
+/* TOP (SEBSTIAN PETAK DEVELOPER) */
+#top {
+  font-family: "Anonymous Pro", sans-serif;
+  color: white;
+  height: 35em;
+  width: 100%;
+  display: table;
+  text-align: center;
+  background: linear-gradient(to right, rgba(9, 9, 9, 0.40), rgba(9, 26, 71, 1)), url('screenresolutionbg.png');
+  background-repeat: no-repeat;;
+  object-fit: cover;
+}
+
+#top > .top-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#top h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  margin: -.5em;
+}
+
+#top h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  margin: -.5em;
+}
+
+hr {
+  width: 30%;
+}
+/* END TOP */
+/* WORK SECTION */
+#work {
+  padding-top: 7em;
+}
+
+#work h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  text-align: center;
+}
+/* END WORK */
