@@ -10,11 +10,18 @@
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="app.css">
+    <!-- foundation icons 3 -->
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
 
   </head>
   <body>
     <header>
       <!-- Navigation Section -->
+      <!-- sticky: ensures menu sticks to top of screen when scrolling -->
+      <div id="menu-container" data-sticky-container>
+        <div id="sticky-mobilemenu" class="sticky"
+          data-sticky data-options="stickTo:top; stickyOn:small;">
+
       <div class="title-bar vertical" data-responsive-toggle="mobile-drop-down" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle></button>
         <div class="title-bar-title">Menu</div>
@@ -23,7 +30,7 @@
       <div id="mobile-drop-down" class="hide-for-medium">
         <ul class="dropdown menu vertical" data-dropdown-menu>
           <li><a href="#top">Top</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,18 +39,20 @@
 
         <div class="top-bar menu menu-centered hide-for-small-only" id="top-bar-menu">
           <ul class="menu">
-            <li><a href="#top">Top</a></li>
-            <li><a href="#work">Work</a></li>
+            <li><a href="#">Top</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+
       </div>
+    </div>
     </header>
 
     <main>
-      <!-- TOP, colored background -->
+<!-- TOP, colored background -->
       <div id="top">
         <div class="top-text">
           <h1>Sebastian Petak</h1>
@@ -52,16 +61,126 @@
         </div>
       </div>
 
-      <div id="work">
+<!-- PROJECTS, entire section -->
+      <div id="projects">
         <div class="row">
           <div class="small-12 columns">
-            <h1>Work</h1>
+            <h1>Projects</h1>
           </div>
         </div>
 
+        <!-- outer padding -->
+        <div class="projects-content-container">
+          <!-- projects: Desktop headings -->
+          <div class="hide-for-small-only">
+            <div class="row">
+              <div class="small-12 medium-4 columns">
+                <div class="column">
+                  <h2>Dynamic Web Applications</h2>
+                </div>
+              </div>
 
-        
+              <div class="small-12 medium-4 columns">
+                <div class="column">
+                  <h2>API Projects</h2>
+                </div>
+              </div>
+
+              <div class="small-12 medium-4 columns">
+                <div class="column">
+                  <h2>CodePen</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end desktop headings -->
+
+          <!--projects: mobile headings and projects content -->
+          <div class="row">
+            <div class="small-12 medium-4 columns">
+              <div class="column">
+                <h2 class="hide-for-medium">Dynamic Web Applications</h2>
+                <img src="wikipedia.png" alt="Wikipedia viewer">
+                <p>Some text about wiki</p>
+                <img src="randomquotemachine.png" alt="Random quote machine">
+                <p>Some text about quote</p>
+
+            </div>
+            </div>
+
+            <div class="small-12 medium-4 columns">
+              <div class="column">
+                <h2 class="hide-for-medium">API Projects</h2>
+                <img src="calculator1.png" alt="JavaScript calculator">
+                <p>Some text about wiki</p>
+                <img src="randomquotemachine.png" alt="Random quote machine">
+                <p>Some text about quote</p>
+              </div>
+            </div>
+
+            <div class="small-12 medium-4 columns">
+              <div class="column">
+                <h2 class="hide-for-medium">CodePen</h2>
+                <img src="wikipedia.png" alt="Wikipedia viewer">
+                <p>Some text about wiki</p>
+                <img src="randomquotemachine.png" alt="Random quote machine">
+                <p>Some text about quote</p>
+              </div>
+            </div>
+
+          </div>
+          <!--end mobile headings and projects content -->
+          <!-- GitHub button -->
+          <div class="row">
+            <div class="small-12 button-container columns">
+              <a href="https://github.com/SebastianPetak"
+                class="button github-button" target="_blank">
+                <i class="fi-social-github">
+                </i>GitHub</a>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+<!-- SKILLS -->
+      <div id="skills">
+        <div class="row">
+          <div class="small-12 columns">
+            <h1>Skills</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 medium-6 medium-centered columns">
+            <p>Bunch of textBunch of textBunch of textBunch of
+            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+            Bunch of textBunch of textBunch of textf
+            Bunch of textBunch of textBunch of textBunch of text</p>
+            <ul class="skills-list">
+              <li>HTML5, CSS, JavaScript</li>
+              <li>jQuery, API integration, AJAX</li>
+              <li>Foundation and Bootstrap</li>
+            </ul>
+            <p>Bunch of textBunch of textBunch of textBunch of
+            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+            Bunch of textBunch of textBunch of textf
+            Bunch of textBunch of textBunch of textBunch of text</p>
+            <ul class="skills-list">
+              <li>Node.js and Express</li>
+              <li>MongoDB and MySQL</li>
+              <li>Git and Linux</li>
+            </ul>
+            <p>Bunch of textBunch of textBunch of textBunch of
+            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+            Bunch of textBunch of textBunch of textf
+            Bunch of textBunch of textBunch of textBunch of text</p>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <script src="vendor/jquery.js"></script>

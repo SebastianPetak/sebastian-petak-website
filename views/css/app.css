@@ -1,4 +1,10 @@
 /* NAVIGATION */
+/* sticky-mobilemenu ensures menu stays at top of screen when scrolling */
+#sticky-mobilemenu {
+  margin: 0px 0px 1rem 0px !important;
+  width: 100%;
+}
+
 #top-bar-menu {
   background-color: RGB(5,5,5); /* ? #151515 */
 }
@@ -38,11 +44,13 @@ color: white;
 #top {
   font-family: "Anonymous Pro", sans-serif;
   color: white;
-  height: 35em;
+  height: 35rem;
   width: 100%;
   display: table;
   text-align: center;
-  background: linear-gradient(to right, rgba(9, 9, 9, 0.40), rgba(9, 26, 71, 1)), url('screenresolutionbg.png');
+  background:
+    linear-gradient(to right, rgba(9, 9, 9, 0.40), rgba(9, 26, 71, 1)),
+    url('screenresolutionbg.png');
   background-repeat: no-repeat;;
   object-fit: cover;
 }
@@ -54,25 +62,107 @@ color: white;
 
 #top h1 {
   font-family: "Anonymous Pro", sans-serif;
-  margin: -.5em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 #top h2 {
   font-family: "Anonymous Pro", sans-serif;
-  margin: -.5em;
+  margin-top: 0;
 }
 
 hr {
   width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* END TOP */
-/* WORK SECTION */
-#work {
-  padding-top: 7em;
+
+/* projects SECTION */
+#projects {
+  background:
+    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90)),
+    url('background1.png');
+  padding-top: 5rem;
 }
 
-#work h1 {
+#projects h1 {
   font-family: "Anonymous Pro", sans-serif;
   text-align: center;
+  margin-bottom: 3rem;
 }
-/* END WORK */
+
+.projects-content-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+}
+
+.github-button {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Allows rows to take up full width
+#projects .row {
+  max-width: 100%;
+}
+*/
+
+#projects .column {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center; /* centers button in column */
+}
+
+
+#projects h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#projects p {
+  font-family: "Anonymous Pro", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#projects img {
+  border: 1px solid #d3d3d3;
+  margin-top: 2rem;
+}
+/* END projects */
+
+/* SKILLS */
+#skills {
+  padding-top: 5rem;
+  background:
+    linear-gradient(to right, rgba(3,10,20,.90), rgba(9, 26, 71, 0.90)),
+    url('whitesquares.jpg');
+}
+
+#skills h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  color: #fff6c9;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#skills p {
+  /*text-indent: 50px; to indent */
+  color: #fffae4; /* #fff6c9 possible light gold color */
+  text-align: center;
+}
+
+.skills-list {
+  font-family: "Anonymous Pro", sans-serif;
+  color: #fffae4;
+  text-align: justify;
+}
+/* END SKILLS */
