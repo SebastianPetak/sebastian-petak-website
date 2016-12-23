@@ -8,6 +8,7 @@
 
     <!-- FONTS and CSS-->
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="app.css">
     <!-- foundation icons 3 -->
@@ -29,22 +30,28 @@
 
       <div id="mobile-drop-down" class="hide-for-medium">
         <ul class="dropdown menu vertical" data-dropdown-menu>
-          <li><a href="#top">Top</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#top">TOP</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
 
-        <div class="top-bar menu menu-centered hide-for-small-only" id="top-bar-menu">
+        <div class="top-bar menu hide-for-small-only" id="top-bar-menu">
+          <div class="top-bar-left">
+            <ul class="menu">
+              <li><a href="#">SEBASTIAN PETAK</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
           <ul class="menu">
-            <li><a href="#">Top</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
+        </div>
         </div>
 
       </div>
@@ -63,69 +70,187 @@
 
 <!-- PROJECTS, entire section -->
       <div id="projects">
-        <div class="row">
-          <div class="small-12 columns">
-            <h1>Projects</h1>
-          </div>
+
+        <!-- project heading -->
+        <div class="project-heading">
+          <h1>PROJECTS</h1>
         </div>
 
-        <!-- outer padding -->
-        <div class="projects-content-container">
-          <!-- projects: Desktop headings -->
-          <div class="hide-for-small-only">
-            <div class="row">
-              <div class="small-12 medium-4 columns">
-                <div class="column">
-                  <h2>Dynamic Web Applications</h2>
+          <!--projects: projects content -->
+          <div class="row collapse">
+
+            <!-- first column -->
+            <div class="small-12 medium-4 columns">
+              <!-- first image  URL Shortener Microservice-->
+              <a href="https://shurl-sp.herokuapp.com/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="url-shortener.png" alt="URL Shortener Microservice" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>URL Shortener Microservice</h2>
+                    <p>Node.js, MongoDB, Heroku</p>
+                  </div>
                 </div>
               </div>
+              </a>
 
-              <div class="small-12 medium-4 columns">
-                <div class="column">
-                  <h2>API Projects</h2>
+              <!-- fourth image  Random Quote Machine-->
+              <a href="https://codepen.io/sebastianpetak/full/NAXrNx/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="randomquotemachine.png"
+                 alt="Random Quote Machine" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Random Quote Machine</h2>
+                    <p>Bootstrap, forismatic API, jQuery</p>
+                  </div>
                 </div>
               </div>
+              </a>
 
-              <div class="small-12 medium-4 columns">
-                <div class="column">
-                  <h2>CodePen</h2>
+              <!-- Seventh image  File Metadata Microservice-->
+              <a href="https://file-metadata-ms-sp.herokuapp.com"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="file-metadata-microservice.png"
+                 alt="File Metadata Microservice" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>File Metadata Microservice</h2>
+                    <p>Node.js, Multer, Heroku</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <!-- end desktop headings -->
-
-          <!--projects: mobile headings and projects content -->
-          <div class="row">
-            <div class="small-12 medium-4 columns">
-              <div class="column">
-                <h2 class="hide-for-medium">Dynamic Web Applications</h2>
-                <img src="wikipedia.png" alt="Wikipedia viewer">
-                <p>Some text about wiki</p>
-                <img src="randomquotemachine.png" alt="Random quote machine">
-                <p>Some text about quote</p>
-
-            </div>
-            </div>
-
-            <div class="small-12 medium-4 columns">
-              <div class="column">
-                <h2 class="hide-for-medium">API Projects</h2>
-                <img src="calculator1.png" alt="JavaScript calculator">
-                <p>Some text about wiki</p>
-                <img src="randomquotemachine.png" alt="Random quote machine">
-                <p>Some text about quote</p>
+              </a>
+              <!-- Tenth image  Tic Tac Toe-->
+              <a href="https://codepen.io/sebastianpetak/full/zKBOkE/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="tic-tac-toe.png"
+                 alt="Tic Tac Toe" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Tic Tac Toe</h2>
+                    <p>jQuery, Bootstrap</p>
+                  </div>
+                </div>
               </div>
+              </a>
+
             </div>
 
+            <!-- Second Column -->
             <div class="small-12 medium-4 columns">
-              <div class="column">
-                <h2 class="hide-for-medium">CodePen</h2>
-                <img src="wikipedia.png" alt="Wikipedia viewer">
-                <p>Some text about wiki</p>
-                <img src="randomquotemachine.png" alt="Random quote machine">
-                <p>Some text about quote</p>
+              <!-- second image  Wikipedia viewer-->
+              <a href="https://codepen.io/sebastianpetak/full/rLvVaw/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="wikipedia.png" alt="Wikipedia Viewer">
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Wikipedia Viewer</h2>
+                    <p>Wikipedia API, Bootstrap</p>
+                  </div>
+                </div>
               </div>
+              </a>
+
+              <!-- fifth image  Timestamp Microservice-->
+              <a href="https://timestamp-microservice-fcc-sp.herokuapp.com/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="timestamp-microservice.png"
+                 alt="Timestamp Microservice" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Timestamp Microservice</h2>
+                    <p>Node.js and Express</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
+              <!-- Eighth image  Request Header Parser Microservice-->
+              <a href="https://req-header-parser-ms-fcc-sp.herokuapp.com/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="request-header-parser-microservice.png"
+                 alt="Request header Parser Microservice" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Request header Parser Microservice</h2>
+                    <p>Node.js, Heroku</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
+              <!-- Eleventh image  Pomodoro-->
+              <a href="https://codepen.io/sebastianpetak/full/bwEmYw/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="pomodoro.png"
+                 alt="Pomodoro Timer" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Pomodoro Timer</h2>
+                    <p>jQuery, Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
+            </div>
+
+            <!-- Third Column -->
+            <div class="small-12 medium-4 columns">
+              <!-- third image Image Search Abstraction layer -->
+              <a href="https://imgs-sp.herokuapp.com/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="image-search-abstraction-layer.png"
+                 alt="Image Search Abstraction Layer">
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Image Search Abstraction layer</h2>
+                    <p>Node.js, MongoDB, Heroku</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
+              <!-- sixth image  JavaScript Calculator-->
+              <a href="https://codepen.io/sebastianpetak/full/WGvLGv/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="calculator.png"
+                 alt="Simple JavaScript Calculator" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Simple JavaScript Calculator</h2>
+                    <p>jQuery and Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
+              <!-- Ninth image  Simon Says Game-->
+              <a href="https://codepen.io/sebastianpetak/full/ozYbmz/"
+                target="_blank">
+              <div class="image-wrapper overlay-fade-in">
+                <img src="simon-game.png"
+                 alt="Simon Says Game" />
+                <div class="image-overlay-content">
+                  <div class="image-overlay-text">
+                    <h2>Simon Says Game</h2>
+                    <p>jQuery, Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+
             </div>
 
           </div>
@@ -140,48 +265,88 @@
             </div>
           </div>
 
-        </div>
       </div>
+    </div>
 
 <!-- SKILLS -->
-      <div id="skills">
-        <div class="row">
-          <div class="small-12 columns">
-            <h1>Skills</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 medium-6 medium-centered columns">
-            <p>Bunch of textBunch of textBunch of textBunch of
-            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
-            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
-            Bunch of textBunch of textBunch of textf
-            Bunch of textBunch of textBunch of textBunch of text</p>
-            <ul class="skills-list">
-              <li>HTML5, CSS, JavaScript</li>
-              <li>jQuery, API integration, AJAX</li>
-              <li>Foundation and Bootstrap</li>
-            </ul>
-            <p>Bunch of textBunch of textBunch of textBunch of
-            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
-            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
-            Bunch of textBunch of textBunch of textf
-            Bunch of textBunch of textBunch of textBunch of text</p>
-            <ul class="skills-list">
-              <li>Node.js and Express</li>
-              <li>MongoDB and MySQL</li>
-              <li>Git and Linux</li>
-            </ul>
-            <p>Bunch of textBunch of textBunch of textBunch of
-            Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
-            Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
-            Bunch of textBunch of textBunch of textf
-            Bunch of textBunch of textBunch of textBunch of text</p>
-          </div>
+    <div id="skills">
+      <div class="row">
+        <div class="small-12 columns">
+          <h1>SKILLS</h1>
         </div>
       </div>
+      <div class="row">
+        <div class="small-12 medium-6 medium-centered columns">
+          <p>Bunch of textBunch of textBunch of textBunch of
+          Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+          Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+          Bunch of textBunch of textBunch of textf
+          Bunch of textBunch of textBunch of textBunch of text</p>
+          <ul class="skills-list">
+            <li>HTML5, CSS, JavaScript</li>
+            <li>jQuery, API integration, AJAX</li>
+            <li>Foundation and Bootstrap</li>
+          </ul>
+          <p>Bunch of textBunch of textBunch of textBunch of
+          Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+          Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+          Bunch of textBunch of textBunch of textf
+          Bunch of textBunch of textBunch of textBunch of text</p>
+          <ul class="skills-list">
+            <li>Node.js and Express</li>
+            <li>MongoDB and MySQL</li>
+            <li>Git and Linux</li>
+          </ul>
+          <p>Bunch of textBunch of textBunch of textBunch of
+          Bunch of textfdaBunch of textBun cadf  adh of teafsdfxtBunch of text
+          Bunch of textBuncfh  fad  of textasdfBunch of textBunch of text
+          Bunch of textBunch of textBunch of textf
+          Bunch of textBunch of textBunch of textBunch of text</p>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="row">
+      <div class="small-12 columns">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="small-12 medium-6 medium-centered columns about-content">
+        <p>This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+            This is all the text about me.This is all the text about me.
+          </p>
+        </div>
+      </div>
+    </div>
 
     </main>
+
+<!-- FOOTER -->
+    <footer class="footer">
+    <div id="contact">
+      <div class="row">
+        <div class="small-12 columns">
+          <p class="slogan">Finger-lickin' good</p>
+          <p class="links">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Faq</a>
+            <a href="#">Contact</a>
+          </p>
+          <p class="copywrite">Copywrite not copypwrite © 2015</p>
+        </div>
+      </div>
+  </div>
+    </footer>
 
     <script src="vendor/jquery.js"></script>
     <script src="vendor/what-input.js"></script>
