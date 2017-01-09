@@ -111,6 +111,7 @@ hr {
 
 #projects h1 {
   font-family: "lato", sans-serif;
+  font-size: 2.5em;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -244,6 +245,7 @@ hr {
 
 #skills h1 {
   font-family: "lato", sans-serif;
+  font-size: 2.5em;
   color: #fff6c9;
   text-align: center;
   margin-bottom: 4rem;
@@ -251,6 +253,7 @@ hr {
 
 #skills h2 {
   font-family: "lato", sans-serif;
+  font-size: 2em;
   color: #fff6c9;
 }
 
@@ -274,14 +277,35 @@ hr {
 
 /* ABOUT */
 
+#about {
+  padding-top: 5rem;
+}
+
 #about h1 {
+  font-size: 2em;
+  font-family: "lato", sans-serif;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+#about p {
+  font-family: "lato", sans-serif;
+  text-align: justify;;
+}
+
+#about-para {
+margin-bottom: 4rem;
 }
 
 /* END ABOUT*/
 
 
 /* FOOTER */
+.email-button {
+  background-color: #3366BB;
+  border-radius: 10px;
+}
+
 .footer {
   background-color: #292c2f;
   text-align: center;
@@ -290,6 +314,10 @@ hr {
   .footer p.slogan {
     color: #8d9093;
     font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.information {
+    color: #8d9093;
+    font-size: 1rem;
     margin: 0 0 1rem; }
   .footer p.copywrite {
     color: #8f9296;
