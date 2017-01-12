@@ -69,9 +69,9 @@ color: white;
   display: table;
   text-align: center;
   background:
-    linear-gradient(to bottom, rgba(30, 100, 220, .92), rgba(50,120,255, .92)), /* 9 26 71 1 */
-    url('background1.png'); /*screenresolutionbg.png */
-  background-repeat: no-repeat;;
+    linear-gradient(to bottom, rgba(30, 100, 220, .92), rgba(50,120,255, .92)); /* 9 26 71 1 */
+    /*url('background1.png');*/   /*screenresolutionbg.png */
+  background-repeat: no-repeat;
   object-fit: cover;
 }
 
@@ -101,8 +101,8 @@ hr {
 /* projects SECTION */
 #projects {
   background:
-    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90)),
-    url('background1.png');
+    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90));
+    /*(url('background1.png');*/
 }
 
 #projects .project-heading {
@@ -250,8 +250,8 @@ hr {
 #skills {
   padding-top: 5rem;
   background:
-    linear-gradient(to right, rgba(3,10,20,.90), rgba(9, 26, 71, 0.90)),
-    url('whitesquares.jpg');
+    linear-gradient(to right, rgba(3,10,20,.90), rgba(9, 26, 71, 0.90));
+    /*url('whitesquares.jpg');*/
   padding-bottom: 6rem;
 }
 
@@ -292,8 +292,8 @@ hr {
 #about {
   padding-top: 5rem;
   background:
-    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90)),
-    url('background1.png');
+    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90));
+    /*url('background1.png');*/
 }
 
 #about h1 {
