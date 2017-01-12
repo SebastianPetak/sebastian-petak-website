@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 8000;
+var port = process.env.PORT || 8000;
 var routes = require('./app/routes/index.js');
 var path = require('path');
 
