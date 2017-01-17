@@ -8,6 +8,7 @@
 #top-bar-menu {
   background-color: rgb(20,20,20);
   height: 2.5rem;
+  min-width: 705px;
 }
 
 #top-bar-menu li {
