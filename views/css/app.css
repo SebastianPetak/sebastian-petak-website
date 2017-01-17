@@ -24,6 +24,7 @@
 #top-bar-menu a {
   background-color: rgb(20,20,20);
   color: #fdfae7;
+  line-height: normal; /* for vertically centering github text and icon */
   font-family: "lato", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
