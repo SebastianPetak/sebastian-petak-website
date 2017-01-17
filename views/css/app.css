@@ -247,57 +247,17 @@ hr {
 
 /* END projects */
 
-/* SKILLS */
-#skills {
-  padding-top: 5rem;
-  background:
-    linear-gradient(to right, rgba(3,10,20,.90), rgba(9, 26, 71, 0.90));
-    /*url('whitesquares.jpg');*/
-  padding-bottom: 6rem;
-}
-
-#skills h1 {
-  font-family: "lato", sans-serif;
-  font-size: 2.5em;
-  color: #fff6c9;
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-#skills h2 {
-  font-family: "lato", sans-serif;
-  font-size: 2em;
-  color: #fff6c9;
-}
-
-#skills h3 {
-  font-family: "lato", sans-serif;
-  color: #fff6c9;
-}
-
-#skills p {
-  /*text-indent: 50px; to indent */
-  color: #fffae4; /* #fff6c9 possible light gold color */
-  text-align: center;
-}
-
-.skills-list {
-  font-family: "lato", sans-serif;
-  color: #fffae4;
-  text-align: justify;
-}
-/* END SKILLS */
-
 /* ABOUT */
 
 #about {
   padding-top: 5rem;
   background:
-    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90));
-    /*url('background1.png');*/
+    linear-gradient(to right, rgba(3,10,20,.90), rgba(9, 26, 71, 0.90));
+    /*url('whitesquares.jpg');*/
 }
 
 #about h1 {
+  color: #fff6c9;
   font-size: 2em;
   font-family: "lato", sans-serif;
   text-align: center;
@@ -305,16 +265,52 @@ hr {
 }
 
 #about p {
+  color: #fff6c9;
   font-family: "lato", sans-serif;
   text-align: justify;;
 }
 
 #about-para {
-margin-bottom: 4rem;
+margin-bottom: 6rem;
 }
 
 /* END ABOUT*/
 
+/* SKILLS */
+#skills {
+  padding-top: 5rem;
+  background:
+    linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90));
+    /*url('background1.png');*/
+  padding-bottom: 4rem;
+}
+
+#skills h1 {
+  font-family: "lato", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#skills h2 {
+  font-family: "lato", sans-serif;
+  font-size: 2em;
+}
+
+#skills h3 {
+  font-family: "lato", sans-serif;
+}
+
+#skills p {
+  /*text-indent: 50px; to indent */
+  text-align: center;
+}
+
+.skills-list {
+  font-family: "lato", sans-serif;
+  text-align: justify;
+}
+/* END SKILLS */
 
 /* FOOTER */
 .email-button {
