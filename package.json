@@ -12,6 +12,8 @@
   "dependencies": {
     "ejs": "^2.5.5",
     "express": "^4.14.0",
-    "sendgrid": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-html": "^1.7.0"
   }
 }
