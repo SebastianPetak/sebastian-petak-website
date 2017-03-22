@@ -3,6 +3,12 @@ $(document).foundation();
 $(document).ready(function() {
 	/* Object contains each projects information */
 	const projectsObject = {
+		fccLeaderboard: {
+			link: 'https://camper-leaderboard-sp.herokuapp.com/',
+			imgSrc: 'fccLeaderboard.jpg',
+			title: 'FreeCodeCamp Leaderboard',
+			builtWith: 'Node.js / Express / React / Foundation'
+		},
 		urlShortenerMicroservice: {
 			link: 'https://shurl-sp.herokuapp.com/',
 			imgSrc: 'url-shortener.png',
@@ -86,19 +92,20 @@ $(document).ready(function() {
 	 From top to bottom */
 	const firstColumnProjects = [
 		projectsObject.urlShortenerMicroservice,
-		projectsObject.randomQuoteMachine,
+		projectsObject.imageSearchAbstractionLayer,
 		projectsObject.fileMetadataMicroservice,
-		projectsObject.ticTacToe,
+		projectsObject.timestampMicroservice,
 		projectsObject.requestHeaderParserMicroservice
 	];
 	const secondColumnProjects = [
-		projectsObject.markdownViewer,
+		projectsObject.fccLeaderboard,
+		projectsObject.randomQuoteMachine,
 		projectsObject.wikipediaViewer,
-		projectsObject.timestampMicroservice,
+		projectsObject.ticTacToe,
 		projectsObject.pomodoroTimer
 	];
 	const thirdColumnProjects = [
-		projectsObject.imageSearchAbstractionLayer,
+		projectsObject.markdownViewer,
 		projectsObject.javaScriptCalculator,
 		projectsObject.simonSaysGame,
 		projectsObject.localWeather
