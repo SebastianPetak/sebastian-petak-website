@@ -120,7 +120,7 @@ $(document).ready(function() {
 					'<img src="' + project.imgSrc + '" alt="' + project.title + '" />\n' +
 					'<div class="image-overlay-content">\n' +
 					'<div class="image-overlay-text">\n' +
-					'<h2>' + project.title + '</h2>\n' +
+					'<p class="project-title">' + project.title + '</p>\n' +
 					'<p>' + project.builtWith + '</p>\n' +
 					'</div>\n</div>\n</div>\n</a>\n'
 				);
