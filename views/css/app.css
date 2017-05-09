@@ -127,13 +127,22 @@ hr {
 .github-button {
   background-color: black;
   border-radius: 10px;
+  margin-right: 1em;
 }
 
 .freecodecamp-button {
   background-color: green;
   border-radius: 10px;
+  margin-left: 1em;
 }
 
+#projects-github-button {
+  text-align: right;
+}
+
+#projects-fcc-button {
+  text-align: left;
+}
 /* Allows rows to take up full width */
 #projects .row {
   max-width: 100%;
@@ -160,7 +169,7 @@ hr {
   text-align: center;
   font-family: "lato", sans-serif;
   margin: 1em;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 #current-projects .row {
