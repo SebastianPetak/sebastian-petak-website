@@ -61,7 +61,7 @@ color: white;
 }
 /* END NAVIGATION */
 
-/* TOP (SEBSTIAN PETAK DEVELOPER) */
+/* TOP (SEBSTIAN PETAK DEVELOPER) ========================================= */
 #top {
   font-family: "lato", sans-serif;
   color: white;
@@ -100,7 +100,7 @@ hr {
 }
 /* END TOP */
 
-/* projects SECTION */
+/* PROJECTS SECTION ======================================================= */
 #projects {
   background:
     linear-gradient(to right, rgba(255, 255, 255, .90), rgba(255, 255, 255, 0.90));
@@ -127,13 +127,22 @@ hr {
 .github-button {
   background-color: black;
   border-radius: 10px;
+  margin-right: 1em;
 }
 
 .freecodecamp-button {
   background-color: green;
   border-radius: 10px;
+  margin-left: 1em;
 }
 
+#projects-github-button {
+  text-align: right;
+}
+
+#projects-fcc-button {
+  text-align: left;
+}
 /* Allows rows to take up full width */
 #projects .row {
   max-width: 100%;
@@ -155,7 +164,31 @@ hr {
 #projects img {
 }
 
-/* HOVER EFFECT OVER PROJECTS */
+/* CURRENT PROJECTS SECTION =============================================== */
+#current-projects h2 {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  margin: 1em;
+  font-size: 1.7em;
+}
+
+#current-projects .row {
+  max-width: 100%;
+}
+
+.group-project h3 {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 1.5em;
+}
+
+.group-project p {
+  text-align: left !important;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* HOVER EFFECT OVER PROJECTS ============================================= */
 /* FROM http://zurb.com/building-blocks/image-hover-effects */
 .image-wrapper {
   width: 100%;
@@ -183,7 +216,7 @@ hr {
 }
 
 
-.overlay-fade-in h2 {
+.overlay-fade-in .project-title {
   text-align: left;
   padding-top: 10px;
   padding-left: 15px;
@@ -234,7 +267,7 @@ hr {
   transform: scale(1.2); }
 .overlay-fade-in:hover .image-overlay-content {
   opacity: 1; }
-.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button, .image-overlay-text {
+.overlay-fade-in:hover .project-title, .overlay-fade-in p, .overlay-fade-in .button, .image-overlay-text {
   opacity: 1; }
 
 .overlay-fade-in:hover .image-overlay-text {
@@ -248,7 +281,7 @@ hr {
 
 /* END projects */
 
-/* ABOUT */
+/* ABOUT ===================================================================*/
 
 #about {
   padding-top: 5rem;
