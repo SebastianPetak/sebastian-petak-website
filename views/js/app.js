@@ -9,6 +9,12 @@ $(document).ready(function() {
 
 	/* Object contains each projects information */
 	const projectsObject = {
+		highlandEspressoBar: {
+			link: 'http://highlandespressobar.com/',
+			imgSrc: 'highland-espresso-bar.jpg',
+			title: 'Highland Espresso Bar',
+			builtWith: 'Node.js / Foundation / Digital Ocean'
+		},
 		fccLeaderboard: {
 			link: 'https://camper-leaderboard-sp.herokuapp.com/',
 			imgSrc: 'fccLeaderboard.jpg',
@@ -97,24 +103,25 @@ $(document).ready(function() {
 /* Projects will display in the order depicted in the following arrays
 	 From top to bottom */
 	const firstColumnProjects = [
+		projectsObject.highlandEspressoBar,
 		projectsObject.urlShortenerMicroservice,
 		projectsObject.imageSearchAbstractionLayer,
 		projectsObject.fileMetadataMicroservice,
 		projectsObject.timestampMicroservice,
-		projectsObject.requestHeaderParserMicroservice
 	];
 	const secondColumnProjects = [
 		projectsObject.fccLeaderboard,
 		projectsObject.randomQuoteMachine,
 		projectsObject.wikipediaViewer,
 		projectsObject.ticTacToe,
-		projectsObject.pomodoroTimer
+		projectsObject.requestHeaderParserMicroservice
 	];
 	const thirdColumnProjects = [
 		projectsObject.markdownViewer,
 		projectsObject.javaScriptCalculator,
 		projectsObject.simonSaysGame,
-		projectsObject.localWeather
+		projectsObject.localWeather,
+		projectsObject.pomodoroTimer
 	];
 // Template for adding projects to a column
 	const projectTemplate = (projects, divClass) => {
